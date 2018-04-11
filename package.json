@@ -1,0 +1,23 @@
+{
+  "name": "linio-test",
+  "version": "1.0.0",
+  "description": "Linio technical test",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "./node_modules/.bin/nodemon app.js",
+    "lint": "./node_modules/.bin/eslint **.js"
+  },
+  "author": "Luis Ovando",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jasmine": "^3.1.0",
+    "nodemon": "^1.17.3"
+  }
+}
