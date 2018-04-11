@@ -2,7 +2,7 @@
 
 const Solution = require('../solution')
 
-describe('Resolve technical test for Linio', () => {
+describe('Resolve technical test', () => {
   let instanceSolution
 
   beforeEach(function () {
